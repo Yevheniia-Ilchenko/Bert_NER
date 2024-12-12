@@ -122,7 +122,27 @@ Use the requirements.txt file to install the required Python libraries:
 Copy code
 pip install -r requirements.txt
 ```
-## Usage
+
+
+
+# Usage
+
+## Steps to evaluate the outcome of a trained model:
+### Download model weight
+
+- Run the **download_weight.py** for downloading scales:
+```bash
+Copy code
+python download_weight.py
+```
+### Check demo and result
+- Run a **demo.ipynb** to check the result:
+```bash
+Copy code
+jupyter notebook demo.ipynb
+```
+ ## Steps for phasing out the entire project:
+
 This project includes several components for dataset preparation, training, and inference. Use the following instructions to navigate and execute the scripts.
 
 ### 1. Prepare the Dataset
